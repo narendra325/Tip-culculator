@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 600px;
+  height: 100vh;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+button {
+  background-color: rgb(98, 98, 214);
+  border-radius: 5px;
+  border-style: none;
+  width: 100px;
+  height: 30px;
+
+  color: white;
+}
+
+input {
+  background-color: rgb(108, 108, 156);
+  margin-left: 10px;
+  border: 2px solid white;
+  height: 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+select {
+  background-color: rgb(231, 231, 242);
+  margin-left: 10px;
+  border: 2px solid white;
+  height: 25px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+label {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
